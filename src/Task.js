@@ -3,7 +3,7 @@
 
 export default function Task() {
   return (
-    <div>
+    <div className="task">
     <input type="checkbox"/>
     test task
     </div>
