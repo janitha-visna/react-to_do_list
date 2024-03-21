@@ -1,11 +1,12 @@
+import CheckBox from "./CheckBox";
 
 
 
 export default function Task() {
-  return (
-    <div className="task">
-    <input type="checkbox"/>
-    test task
-    </div>
-  );
+    return (
+        <div className="task">
+        <CheckBox/>
+        test task
+        </div>
+    );
 }
